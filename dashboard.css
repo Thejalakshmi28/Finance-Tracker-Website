@@ -1,0 +1,63 @@
+.form-control-primary {
+  margin: 10px;
+  opacity: 0.8;
+  border-radius: 2px;
+  color:white;
+}
+ 
+
+::placeholder{
+      color: black !important;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 100;
+  padding: 60px 0 0 0;
+/*  border-right: 1px solid #d3d3d3;*/
+}
+
+.left-sidebar {
+
+  background-color:hsl(214, 18%, 80%) !important;
+  width: 230px;
+  position: sticky;
+  top:0;
+  height: calc(100vh - 70px)
+}
+#home:hover {
+	background-color: red;
+	color: white;
+}
+.sidebar-nav li .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+.buttons{
+	padding: 10px;
+	text-align: center;
+	margin-left: 70px;
+	color:white !important;
+	width: 90px;
+	background-color:hsl(224, 60%, 47%) !important;
+	border-radius: 5px;
+	border-color: hsl(214, 18%, 80%);
+}
+.author-card-shape {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.author-card-img {
+  /*max-width: 100%;*/
+  width:30px;
+  height: 20px;
+  height: auto;
+}
+
+
+
